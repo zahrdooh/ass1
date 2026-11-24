@@ -22,18 +22,44 @@
 
             #region question2
 
-            Book book = new Book();
+            //Book book = new Book();
 
-            book.Title = "life";
-            book.Pages = 350;
+            //book.Title = "life";
+            //book.Pages = 350;
 
-            Console.WriteLine("ToString(): " + book.ToString());
+            //Console.WriteLine("ToString(): " + book.ToString());
 
-            Console.WriteLine("Equals(): " + book.Equals(book));
+            //Console.WriteLine("Equals(): " + book.Equals(book));
 
-            Console.WriteLine("GetHashCode(): " + book.GetHashCode());
+            //Console.WriteLine("GetHashCode(): " + book.GetHashCode());
 
-            Console.WriteLine("GetType(): " + book.GetType());
+            //Console.WriteLine("GetType(): " + book.GetType());
+
+            #endregion
+
+            #region question3
+            // int pages = "464";
+            //Compile-time error.
+            //A type mismatch detected by the compiler is a compile-time error.
+            //int pages = 464;
+            //Console.WriteLine($"Pages: {pages}");
+            #endregion
+
+            #region question4
+            try
+            {
+                int x = 0;
+                int result = 10 / x;
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
 
             #endregion
         }
