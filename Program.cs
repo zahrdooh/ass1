@@ -46,21 +46,28 @@
             #endregion
 
             #region question4
-            try
-            {
-                int x = 0;
-                int result = 10 / x;
-            }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("Cannot divide by zero");
-            }
-            finally
-            {
-                Console.WriteLine("Done");
-            }
+            //try
+            //{
+            //    int x = 0;
+            //    int result = 10 / x;
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
 
 
+            #endregion
+
+            #region question5
+            int pages = 300;
+            double result = pages;
+
+            Console.WriteLine(result);
             #endregion
 
 
