@@ -84,22 +84,29 @@
             #endregion
 
             #region question8
-            string yearText = "2023";
-            int year = int.Parse(yearText);
+            //string yearText = "2023";
+            //int year = int.Parse(yearText);
 
-            Console.WriteLine(year);
+            //Console.WriteLine(year);
 
-            // Using int.TryParse()
-            string badText = "abc";
+            //// Using int.TryParse()
+            //string badText = "abc";
 
-            if (int.TryParse(badText, out int number))
-            {
-                Console.WriteLine(number);
-            }
-            else
-            {
-                Console.WriteLine("Invalid number");
-            }
+            //if (int.TryParse(badText, out int number))
+            //{
+            //    Console.WriteLine(number);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid number");
+            //}
+            #endregion
+
+            #region question9
+            int pages = 464;
+            string pagesText = pages.ToString();
+            Console.WriteLine(pagesText);
+            Console.WriteLine(pagesText.GetType());
             #endregion
 
         }
