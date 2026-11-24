@@ -64,6 +64,13 @@
             #endregion
 
             #region question5
+            //int pages = 300;
+            //double result = pages;
+
+            //Console.WriteLine(result);
+            #endregion
+
+            #region question6
             int pages = 300;
             double result = pages;
 
