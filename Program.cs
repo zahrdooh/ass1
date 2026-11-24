@@ -71,12 +71,17 @@
             #endregion
 
             #region question6
-            int pages = 300;
-            double result = pages;
+            //int pages = 300;
+            //double result = pages;
 
-            Console.WriteLine(result);
+            //Console.WriteLine(result);
             #endregion
 
+            #region question7
+            string pagesText = "464";
+            int pages = Convert.ToInt32(pagesText);
+            Console.WriteLine(pages);
+            #endregion
 
         }
     }
