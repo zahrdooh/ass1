@@ -78,9 +78,28 @@
             #endregion
 
             #region question7
-            string pagesText = "464";
-            int pages = Convert.ToInt32(pagesText);
-            Console.WriteLine(pages);
+            //string pagesText = "464";
+            //int pages = Convert.ToInt32(pagesText);
+            //Console.WriteLine(pages);
+            #endregion
+
+            #region question8
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+
+            Console.WriteLine(year);
+
+            // Using int.TryParse()
+            string badText = "abc";
+
+            if (int.TryParse(badText, out int number))
+            {
+                Console.WriteLine(number);
+            }
+            else
+            {
+                Console.WriteLine("Invalid number");
+            }
             #endregion
 
         }
