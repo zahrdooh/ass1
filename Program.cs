@@ -103,10 +103,23 @@
             #endregion
 
             #region question9
-            int pages = 464;
-            string pagesText = pages.ToString();
-            Console.WriteLine(pagesText);
-            Console.WriteLine(pagesText.GetType());
+            //int pages = 464;
+            //string pagesText = pages.ToString();
+            //Console.WriteLine(pagesText);
+            //Console.WriteLine(pagesText.GetType());
+            #endregion
+
+            #region question10
+            // Boxing
+            int copies = 100;
+            object obj = copies;
+
+            // Unboxing
+            int newCopies = (int)obj;
+
+            // Print both
+            Console.WriteLine("Original: " + copies);
+            Console.WriteLine("Unboxed: " + newCopies);
             #endregion
 
         }
